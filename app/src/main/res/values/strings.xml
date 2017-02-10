@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SqlLite_Learning</string>
+    <string name="firstName">ENTER FIRST NAME</string>
+    <string name="lastName">ENTER LAST NAME</string>
+    <string name="register">REGISTER</string>
+    <string name="clickHere">KNOW NICKNAME</string>
+    <string name="sweetName">ENTER YOUR NICKNAME</string>
+</resources>

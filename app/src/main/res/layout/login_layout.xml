@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:hint="@string/firstName"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="80dp"/>
+
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:hint="@string/lastName"
+        android:layout_alignTop="@+id/firstName"
+        android:layout_alignRight="@+id/firstName"
+        android:layout_alignEnd="@+id/firstName"
+        android:layout_marginTop="64dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/register"
+        android:layout_below="@+id/firstName"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ageFind"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/clickHere"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/register"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
